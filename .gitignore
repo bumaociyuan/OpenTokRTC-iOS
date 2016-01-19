@@ -1,5 +1,3 @@
-Pods/
-*.swp
-*.xcuserdatad
+xcuserdata/
 
-OpenTok.framework/
+Pods/

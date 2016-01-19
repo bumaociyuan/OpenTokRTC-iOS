@@ -1,10 +1,10 @@
 PODS:
-  - OpenTok (2.5.0)
+  - OpenTok (2.7.1-beta.1)
 
 DEPENDENCIES:
-  - OpenTok
+  - OpenTok (= 2.7.1-beta.1)
 
 SPEC CHECKSUMS:
-  OpenTok: 1591ecf403a719b8d93cf864956a33413c39ecf8
+  OpenTok: c31ac3349261d0bfe5d2fbb1fd19b370c95ea2a0
 
-COCOAPODS: 0.36.3
+COCOAPODS: 0.39.0
