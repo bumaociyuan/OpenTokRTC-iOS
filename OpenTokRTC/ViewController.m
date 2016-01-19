@@ -11,9 +11,6 @@
 #define OPENTOK_INFO @"OpenTokInfo"
 #define OPENTOK_USER_NAME @"OpenTokUserName"
 #define OPENTOK_ROOM_NAME @"OpenTokRoomName"
-#define SYSTEM_VERSION_LESS_THAN(v) \
-        ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == \
-        NSOrderedAscending)
 
 @interface ViewController () {
     UIFont *avantGarde;
