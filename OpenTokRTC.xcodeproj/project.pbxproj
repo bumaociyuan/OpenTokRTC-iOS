@@ -11,10 +11,10 @@
 		920885ED1C4DB44100121424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 920885EC1C4DB44100121424 /* main.m */; };
 		920885F01C4DB44100121424 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 920885EF1C4DB44100121424 /* AppDelegate.m */; };
 		920885F31C4DB44100121424 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920885F21C4DB44100121424 /* ViewController.m */; };
-		920885F61C4DB44100121424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920885F41C4DB44100121424 /* Main.storyboard */; };
 		920885F81C4DB44100121424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920885F71C4DB44100121424 /* Assets.xcassets */; };
-		920885FB1C4DB44100121424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920885F91C4DB44100121424 /* LaunchScreen.storyboard */; };
-		92E372231C4DB6C0001AAD8B /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92E372221C4DB6C0001AAD8B /* Config.plist */; };
+		92E372261C4DC142001AAD8B /* RoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E372251C4DC142001AAD8B /* RoomViewController.m */; };
+		92E3722E1C4E0393001AAD8B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E3722C1C4E0393001AAD8B /* MainStoryboard.storyboard */; };
+		92E372301C4E11DF001AAD8B /* Avant Garde Book BT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92E3722F1C4E11DF001AAD8B /* Avant Garde Book BT.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,16 +24,17 @@
 		920885EC1C4DB44100121424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		920885EE1C4DB44100121424 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		920885EF1C4DB44100121424 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		920885F11C4DB44100121424 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		920885F21C4DB44100121424 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		920885F51C4DB44100121424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		920885F71C4DB44100121424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		920885FA1C4DB44100121424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		920885F11C4DB44100121424 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = OpenTokRTC/ViewController.h; sourceTree = "<group>"; };
+		920885F21C4DB44100121424 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = OpenTokRTC/ViewController.m; sourceTree = "<group>"; };
+		920885F71C4DB44100121424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = OpenTokRTC/Assets.xcassets; sourceTree = "<group>"; };
 		920885FC1C4DB44100121424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92E3721C1C4DB641001AAD8B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		92E3721D1C4DB641001AAD8B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		92E372201C4DB660001AAD8B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		92E372221C4DB6C0001AAD8B /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		92E372241C4DC142001AAD8B /* RoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoomViewController.h; path = OpenTokRTC/RoomViewController.h; sourceTree = "<group>"; };
+		92E372251C4DC142001AAD8B /* RoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoomViewController.m; path = OpenTokRTC/RoomViewController.m; sourceTree = "<group>"; };
+		92E3722D1C4E0393001AAD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = OpenTokRTC/Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		92E3722F1C4E11DF001AAD8B /* Avant Garde Book BT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Avant Garde Book BT.ttf"; path = "OpenTokRTC/Avant Garde Book BT.ttf"; sourceTree = "<group>"; };
 		ADDF8CC2A3C33C9F2F2F30C5 /* Pods-OpenTokRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTokRTC.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenTokRTC/Pods-OpenTokRTC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +70,10 @@
 		920885DF1C4DB44100121424 = {
 			isa = PBXGroup;
 			children = (
-				920885EA1C4DB44100121424 /* OpenTokRTC */,
+				92E372271C4DEB99001AAD8B /* View Controllers */,
+				920885EA1C4DB44100121424 /* Other Classes */,
+				92E372281C4DEC30001AAD8B /* Interface */,
+				920885EB1C4DB44100121424 /* Supporting Files */,
 				920885E91C4DB44100121424 /* Products */,
 				92E372201C4DB660001AAD8B /* README.md */,
 				92E3721C1C4DB641001AAD8B /* .gitignore */,
@@ -87,29 +91,45 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		920885EA1C4DB44100121424 /* OpenTokRTC */ = {
+		920885EA1C4DB44100121424 /* Other Classes */ = {
 			isa = PBXGroup;
 			children = (
 				920885EE1C4DB44100121424 /* AppDelegate.h */,
 				920885EF1C4DB44100121424 /* AppDelegate.m */,
-				920885F11C4DB44100121424 /* ViewController.h */,
-				920885F21C4DB44100121424 /* ViewController.m */,
-				920885F41C4DB44100121424 /* Main.storyboard */,
-				920885F71C4DB44100121424 /* Assets.xcassets */,
-				920885F91C4DB44100121424 /* LaunchScreen.storyboard */,
-				92E372221C4DB6C0001AAD8B /* Config.plist */,
-				920885FC1C4DB44100121424 /* Info.plist */,
-				920885EB1C4DB44100121424 /* Supporting Files */,
 			);
+			name = "Other Classes";
 			path = OpenTokRTC;
 			sourceTree = "<group>";
 		};
 		920885EB1C4DB44100121424 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				920885FC1C4DB44100121424 /* Info.plist */,
 				920885EC1C4DB44100121424 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = OpenTokRTC;
+			sourceTree = "<group>";
+		};
+		92E372271C4DEB99001AAD8B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				920885F11C4DB44100121424 /* ViewController.h */,
+				920885F21C4DB44100121424 /* ViewController.m */,
+				92E372241C4DC142001AAD8B /* RoomViewController.h */,
+				92E372251C4DC142001AAD8B /* RoomViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		92E372281C4DEC30001AAD8B /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				92E3722C1C4E0393001AAD8B /* MainStoryboard.storyboard */,
+				920885F71C4DB44100121424 /* Assets.xcassets */,
+				92E3722F1C4E11DF001AAD8B /* Avant Garde Book BT.ttf */,
+			);
+			name = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,10 +162,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Ankur Oberoi";
+				ORGANIZATIONNAME = "TokBox, Inc";
 				TargetAttributes = {
 					920885E71C4DB44100121424 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MGD69Q275W;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -172,10 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				920885FB1C4DB44100121424 /* LaunchScreen.storyboard in Resources */,
 				920885F81C4DB44100121424 /* Assets.xcassets in Resources */,
-				92E372231C4DB6C0001AAD8B /* Config.plist in Resources */,
-				920885F61C4DB44100121424 /* Main.storyboard in Resources */,
+				92E3722E1C4E0393001AAD8B /* MainStoryboard.storyboard in Resources */,
+				92E372301C4E11DF001AAD8B /* Avant Garde Book BT.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,26 +262,19 @@
 				920885F31C4DB44100121424 /* ViewController.m in Sources */,
 				920885F01C4DB44100121424 /* AppDelegate.m in Sources */,
 				920885ED1C4DB44100121424 /* main.m in Sources */,
+				92E372261C4DC142001AAD8B /* RoomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		920885F41C4DB44100121424 /* Main.storyboard */ = {
+		92E3722C1C4E0393001AAD8B /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				920885F51C4DB44100121424 /* Base */,
+				92E3722D1C4E0393001AAD8B /* Base */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		920885F91C4DB44100121424 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				920885FA1C4DB44100121424 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,7 +365,10 @@
 			baseConfigurationReference = 4C4DC6D1F1AC37F67D6BC72A /* Pods-OpenTokRTC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpenTokRTC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tokbox.OpenTokRTC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,7 +380,10 @@
 			baseConfigurationReference = ADDF8CC2A3C33C9F2F2F30C5 /* Pods-OpenTokRTC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpenTokRTC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tokbox.OpenTokRTC;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -2,8 +2,7 @@
 //  AppDelegate.m
 //  OpenTokRTC
 //
-//  Created by Ankur Oberoi on 1/18/16.
-//  Copyright © 2016 Ankur Oberoi. All rights reserved.
+//  Copyright © 2016 TokBox, Inc. All rights reserved.
 //
 
 #import "AppDelegate.h"
