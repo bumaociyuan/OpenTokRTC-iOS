@@ -166,7 +166,7 @@
 				TargetAttributes = {
 					920885E71C4DB44100121424 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = MGD69Q275W;
+						DevelopmentTeam = 388D56L7YB;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -370,7 +370,7 @@
 				INFOPLIST_FILE = OpenTokRTC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tokbox.OpenTokRTC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.OpenTokRTC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -385,7 +385,7 @@
 				INFOPLIST_FILE = OpenTokRTC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tokbox.OpenTokRTC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.OpenTokRTC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
